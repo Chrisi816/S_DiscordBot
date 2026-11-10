@@ -1,0 +1,12 @@
+{
+  "teamRoleId": "",
+  "logChannelId": "",
+  "categories": {
+    "question-ticket": { "categoryId": "", "roleId": "" },
+    "customer-support": { "categoryId": "", "roleId": "" },
+    "purchase-support": { "categoryId": "", "roleId": "" },
+    "staff-application": { "categoryId": "", "roleId": "" },
+    "partner-program": { "categoryId": "", "roleId": "" },
+    "redeem-giveaway": { "categoryId": "", "roleId": "" }
+  }
+}

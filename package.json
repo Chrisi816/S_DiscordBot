@@ -1,0 +1,37 @@
+{
+  "name": "s-service-bot",
+  "version": "1.0.0",
+  "description": "A modular Discord bot for community management, support tickets, captcha verification, and branded server automation. Built with Node.js and discord.js.",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node scripts/check.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "discord",
+    "discordjs",
+    "community",
+    "tickets",
+    "captcha",
+    "verification",
+    "fivem"
+  ],
+  "author": "S-Service",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^1.1.0",
+    "discord.js": "^14.27.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  }
+}
